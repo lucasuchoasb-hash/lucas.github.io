@@ -1,55 +1,54 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Lucas Uchôas - Contato</title>
-  <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Boston Celtics - Mural do Fã</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-celtics">
+            <div class="container">
+                <a class="navbar-brand fw-bold" href="index.html">Boston Celtics</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menuPrincipal">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="menuPrincipal">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+                        <li class="nav-item"><a class="nav-link" href="sobre.html">Títulos</a></li>
+                        <li class="nav-item"><a class="nav-link active" href="contato.html">Mural do Fã</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
 
-  <header>
-    <h1>Lucas Uchôas</h1>
-    <p>Estudante de Análise e Desenvolvimento de Sistemas - FATEC São José dos Campos</p>
+    <main class="container">
+        <section class="row justify-content-center">
+            <div class="col-md-8 col-lg-6">
+                <h2 class="text-center text-celtics mb-4 mt-3">Mural da Torcida Celta</h2>
+                <form class="p-4 border rounded shadow-sm bg-white">
+                    <div class="mb-3">
+                        <label for="nomeTorcedor" class="form-label">Seu Nome</label>
+                        <input type="text" class="form-control" id="nomeTorcedor" placeholder="Ex: Lucas" required>
+                    </div>
+                    <div class="mb-3">
+                        <label for="mensagemTorcedor" class="form-label">Mensagem para a Equipe</label>
+                        <textarea class="form-control" id="mensagemTorcedor" rows="4" placeholder="Let's go Celtics!" required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-success w-100 bg-celtics border-0 fw-bold">Enviar Mensagem</button>
+                </form>
+            </div>
+        </section>
+    </main>
 
-    <nav>
-      <ul>
-        <li><a href="index.html">Home</a></li>
-        <li><a href="sobre.html">Sobre</a></li>
-        <li><a href="contato.html">Contato</a></li>
-      </ul>
-    </nav>
-  </header>
+    <footer class="text-center py-3 mt-auto">
+        <p class="mb-0">&copy; 2026 Boston Celtics Fan Page. Todos os direitos reservados.</p>
+    </footer>
 
-  <main>
-    <section class="hero">
-      <h2>Entre em Contato</h2>
-      <p>Confira meus canais de comunicação direta, localização e diferenciais profissionais.</p>
-    </section>
-
-    <section class="cards-container">
-      <article class="card">
-        <h3>Canais Diretos</h3>
-        <p><strong>Telefone:</strong> (12) 97606-9800</p>
-        <p><strong>E-mail:</strong> lucasuchoasb@gmail.com</p>
-      </article>
-
-      <article class="card">
-        <h3>Localização</h3>
-        <p><strong>Cidade:</strong> São José dos Campos - SP</p>
-        <p><strong>Atuação:</strong> Presencial, Híbrido ou Remoto</p>
-      </article>
-
-      <article class="card">
-        <h3>Habilidades Pessoais</h3>
-        <p>Comunicação Assertiva, Negociação, Atendimento ao Cliente, Trabalho em Equipe e Facilidade para Aprender.</p>
-      </article>
-    </section>
-  </main>
-
-  <footer>
-    <p>&copy; 2026 - Lucas Uchôas. Todos os direitos reservados.</p>
-  </footer>
-
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
