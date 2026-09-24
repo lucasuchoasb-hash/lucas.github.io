@@ -8,12 +8,12 @@ body {
     min-height: 100vh;
 }
 
-.bg-sjc {
-    background-color: #0033a0 !important;
+.bg-celtics {
+    background-color: #007A33 !important; /* Verde tradicional do Celtics */
 }
 
-.text-amarelo {
-    color: #ffcd00 !important;
+.text-celtics {
+    color: #007A33 !important;
 }
 
 main {
@@ -22,6 +22,6 @@ main {
 }
 
 footer {
-    background-color: #212529;
+    background-color: #1d1d1d;
     color: white;
 }
